@@ -1,1 +1,0 @@
-Open the webpage in any browser. An alert box will say "Hello World".
