@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by slandau on 1/11/17.
  */
@@ -21,7 +23,8 @@ public class IntegerPalindrome {
     }
 
     public static void main(String[] args) {
-        long a = 1221;
-        System.out.println(palindrome(a));
+        Scanner in = new Scanner(System.in);
+        long input = in.nextLong();
+        System.out.println(palindrome(input));
     }
 }
