@@ -15,7 +15,11 @@ Testing
 In order to test the program, you may use the provided test files. Plug all strings from the test files into your program to create a node for each one. Print the list of nodes then reverse the list. After the list has been completely reversed output the list again (which should result in the reverse of what was previously printed). 
 
 The test inputs are also listed below.
+
 1. r e d r u m
+
 2. p a r k
+
 3. b o o b y t r a p
+
 4. l i v e
