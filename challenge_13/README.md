@@ -5,6 +5,8 @@
 Another classic problem. A palindrome is a word that is the same when read forward or backward, like **racecar** or **tacocat**.
 Write a program that takes in a positive integer value **(12321)**, and returns boolean **(true)** if the integer is a palindrome.
 
+The program should take a number from standard input (this is the only time you will be allowed to perform a cast) and use that as the number to be checked. The resulting boolean should be outputted to standard output.
+
 ### Constraints
 1. Your program must not use any "built-in" methods or classes, only generics.
 2. This means nothing like *String.valueOf()* or *.equals()* or *.reverse()*
@@ -37,5 +39,14 @@ Out: false
 
 In: 1010110101
 Out: true
+
+Testing
+------
+The test cases can be found in the tests directory. The program, when tested with the test cases should output the boolean listed.
+* test1: true
+* test2: true
+* test3: false
+* test4: false
+* test5: true
 
 Challenge created by @jdfurlan
