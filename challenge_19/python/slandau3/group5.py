@@ -17,3 +17,5 @@ def chosen(start, nums, target):
                 return True
         return False
 
+
+print(chosen(0, [2,7,5,1,3,1,4,9], 14))

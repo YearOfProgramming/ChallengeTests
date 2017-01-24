@@ -14,7 +14,7 @@ def path(length, width, x, y, path_string):
         path(length, width, x, y + 1, path_string + "U")
         path(length, width, x + 1, y, path_string + "R")
 
-path(10, 10, 0, 0, "")
-print(combs)
+path(2,2, 0, 0, "")
+print(lst)
 
 
