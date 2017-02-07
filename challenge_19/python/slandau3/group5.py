@@ -6,7 +6,7 @@ def chosen(start, nums, target):
         return False
     else:
         for i in range(start, len(nums)):
-            nc = nums.copy()
+            nc = nums[:]
             if i == 0:
                 continue
 
